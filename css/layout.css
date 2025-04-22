@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 html,
 body {
   margin: 0;
   padding: 0;
   background-color: #222222;
   height: 100%;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -102,12 +103,26 @@ main {
     margin-bottom: 30px;
   }
 
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
   .grid-container {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(1, 1fr); /* default 1 kolom */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* ✅ */
     max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
   }
 }
 
@@ -203,4 +218,18 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* agar bisa vertikal tengah */
+}
+
+#about {
+  scroll-margin-top: 80px; /* atau sesuai tinggi navbar kamu */
+}
+
+.project-card {
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.project-card:hover {
+  border: 2px solid #1dcd9f;
+  box-shadow: 0 0 15px rgba(29, 205, 159, 0.3);
 }

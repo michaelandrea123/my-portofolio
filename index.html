@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="css/layout.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
 
   <body>
@@ -71,8 +72,8 @@
               </div>
 
               <div class="col-md-6 text-center">
-                <div class="rounded-circle d-inline-block p-1" style="background: linear-gradient(to bottom right, #00cba9, #169976)">
-                  <img src="photo/me.jpeg" alt="My Avatar" class="rounded-circle" style="width: 250px; background-color: #1e1e1e" />
+                <div class="rounded-circle d-inline-block p-1" style="background: linear-gradient(to bottom right, #00cba9, #169976); overflow: visible; position: relative">
+                  <img src="photo/me.png" alt="My Avatar" class="rounded-circle" style="width: 270px; background-color: #1e1e1e" />
                 </div>
               </div>
             </div>
@@ -80,84 +81,107 @@
         </section>
 
         <!-- About Me -->
-        <section id="aboutme">
-          <div style="background-color: #169976; padding-top: 60px; padding-bottom: 100px">
-            <div class="text-center">
-              <h3 class="fw-semibold" style="color: #ffffff">About Me</h3>
-              <div style="height: 2px; max-width: 180px; background-color: #1dcd9f; margin: 0px auto 30px"></div>
-            </div>
-            <div class="d-flex justify-content-center">
-              <p class="about-text">
-                <span style="color: #222222"> Hello! I’m Michael Andrea, a passionate full-stack web developer and graphic designer dedicated to crafting user-friendly digital experiences</span>. I have a deep interest in both design and
-                development, and I continuously strive to advance my skills while keeping up with the latest trends and technologies in the web development world. My expertise spans across the entire development spectrum—from designing
-                intuitive interfaces to building robust server-side applications. With a solid foundation in HTML, CSS, JavaScript, PHP, MySQL, GitLab, and Laravel, I’ve had the privilege to work on various web projects, including an
-                enriching internship at Medicord where I learned and grew within a professional environment. I also enjoy leveraging design tools like Figma to transform creative ideas into visually engaging products. My goal is to
-                continually expand my knowledge in full-stack development and design, contributing to projects that make a meaningful impact. When I'm not coding or designing, you'll likely find me exploring emerging tech trends or working
-                on my own creative endeavors. Feel free to explore my portfolio, and let’s connect if you’re interested in collaborating on your next project!
-              </p>
-            </div>
+        <div style="background-color: #169976; padding-top: 60px; padding-bottom: 100px">
+          <div class="text-center">
+            <h3 class="fw-semibold" style="color: #ffffff">About Me</h3>
+            <div style="height: 2px; max-width: 180px; background-color: #1dcd9f; margin: 0px auto 30px"></div>
           </div>
-        </section>
+          <div class="d-flex justify-content-center">
+            <p class="about-text">
+              <span style="color: #222222"> Hello! I’m Michael Andrea, a passionate full-stack web developer and graphic designer dedicated to crafting user-friendly digital experiences</span>. I have a deep interest in both design and
+              development, and I continuously strive to advance my skills while keeping up with the latest trends and technologies in the web development world. My expertise spans across the entire development spectrum—from designing
+              intuitive interfaces to building robust server-side applications. With a solid foundation in HTML, CSS, JavaScript, PHP, MySQL, GitLab, and Laravel, I’ve had the privilege to work on various web projects, including an
+              enriching internship at Medicord where I learned and grew within a professional environment. I also enjoy leveraging design tools like Figma to transform creative ideas into visually engaging products. My goal is to
+              continually expand my knowledge in full-stack development and design, contributing to projects that make a meaningful impact. When I'm not coding or designing, you'll likely find me exploring emerging tech trends or working on
+              my own creative endeavors. Feel free to explore my portfolio, and let’s connect if you’re interested in collaborating on your next project!
+            </p>
+          </div>
+        </div>
         <!-- End About Me-->
       </section>
 
       <!-- Skills-->
-      <section id="portofolio">
-        <div style="background-color: #222222; padding-top: 60px; padding-bottom: 100px">
-          <div class="text-center">
-            <h2 class="fw-semibold" style="color: #ffffff">Skills</h2>
-            <div style="height: 2px; max-width: 180px; background-color: #1dcd9f; margin: 2px auto 60px"></div>
+      <section id="portofolio" style="background-color: #222222; padding-top: 80px; padding-bottom: 40px">
+        <div class="text-center">
+          <h2 class="fw-semibold" style="color: #ffffff">Skills</h2>
+          <div style="height: 2px; max-width: 180px; background-color: #1dcd9f; margin: 2px auto 60px"></div>
+        </div>
+        <div class="wrapper">
+          <div class="grid-container">
+            <div class="skill-card">
+              <img src="photo/html.png" class="skill-img" />
+              <h3 class="skill-name">HTML</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/css-3.png" class="skill-img" />
+              <h3 class="skill-name">CSS</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/js.png" class="skill-img" />
+              <h3 class="skill-name">JavaScript</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/php.png" class="skill-img" />
+              <h3 class="skill-name">PHP</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="test/bootstrap.png" class="skill-img" />
+              <h3 class="skill-name">Bootstrap</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/mysql.png" class="skill-img" style="background-color: #fff; border-radius: 5px" />
+              <h3 class="skill-name">MySQL</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/laravel.png" class="skill-img" />
+              <h3 class="skill-name">Laravel</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/gitlab.png" class="skill-img" />
+              <h3 class="skill-name">GitLab</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/figma.png" class="skill-img" />
+              <h3 class="skill-name">Figma</h3>
+            </div>
+
+            <div class="skill-card">
+              <img src="photo/vscode.png" class="skill-img" style="min-width: 80px" />
+              <h3 class="skill-name">VS Code</h3>
+            </div>
           </div>
-          <div class="wrapper">
-            <div class="grid-container">
-              <div class="skill-card">
-                <img src="photo/html.png" class="skill-img" />
-                <h3 class="skill-name">HTML</h3>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <div class="card mb-3 project-card" style="max-width: 1100px; background-color: #1e1e1e; border: none">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="test/project.png" class="img-fluid rounded-start" alt="Project Preview" />
               </div>
-
-              <div class="skill-card">
-                <img src="photo/css-3.png" class="skill-img" />
-                <h3 class="skill-name">CSS</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/js.png" class="skill-img" />
-                <h3 class="skill-name">JavaScript</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/php.png" class="skill-img" />
-                <h3 class="skill-name">PHP</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="test/bootstrap.png" class="skill-img" />
-                <h3 class="skill-name">Bootstrap</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/mysql.png" class="skill-img" style="background-color: #fff; border-radius: 5px" />
-                <h3 class="skill-name">MySQL</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/laravel.png" class="skill-img" />
-                <h3 class="skill-name">Laravel</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/gitlab.png" class="skill-img" />
-                <h3 class="skill-name">GitLab</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/figma.png" class="skill-img" />
-                <h3 class="skill-name">Figma</h3>
-              </div>
-
-              <div class="skill-card">
-                <img src="photo/vscode.png" class="skill-img" style="min-width: 80px" />
-                <h3 class="skill-name">VS Code</h3>
+              <div class="col-md-8">
+                <div class="card-body text-white p-4">
+                  <h5 class="card-title">Dacebook</h5>
+                  <p class="card-text mt-3">Dacebook is a simple website that integrates login and CRUD features for managing user data. Built using Bootstrap for a responsive and user-friendly interface.</p>
+                  <div class="mt-4 mb-3">
+                    <p class="mb-2">Built With:</p>
+                    <div class="d-flex gap-2">
+                      <img src="photo/html.png" style="max-width: 40px" alt="HTML" />
+                      <img src="photo/css-3.png" style="max-width: 40px" alt="CSS" />
+                      <img src="photo/js.png" style="max-width: 40px" alt="JavaScript" />
+                      <img src="photo/php.png" style="max-width: 40px" alt="PHP" />
+                      <img src="test/bootstrap.png" style="max-width: 40px" alt="Bootstrap" />
+                    </div>
+                  </div>
+                  <a href="https://github.com/michaelandrea123/Dacobook" target="_blank" class="btn btn-sm" style="background-color: transparent; color: #1dcd9f; border: 2px solid #1dcd9f; border-radius: 5px"> <i class="bi bi-eye"></i> View Repository </a>
+                  <p class="card-text mt-3"><small class="text-white">Uploaded on April 22, 2025</small></p>
+                </div>
               </div>
             </div>
           </div>
@@ -166,7 +190,51 @@
       <!-- End Skilss-->
 
       <section id="contact">
-        <div style="min-height: 600px"></div>
+        <div style="background-color: #169976; padding-top: 80px; padding-bottom: 100px">
+          <div class="text-center">
+            <h3 class="fw-semibold" style="color: #ffffff">Contact Me</h3>
+            <div style="height: 2px; max-width: 180px; background-color: #1dcd9f; margin: 0px auto 30px"></div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-between align-items-center p-4" style="background-color: #2e2e2e; border-radius: 10px; color: white; max-width: 800px; width: 100%">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-chat-left-dots" style="font-size: 3rem; color: #cfcfcf"></i>
+                <div>
+                  <h6 class="mb-1" style="font-weight: 700">CHAT</h6>
+                  <p class="mb-0" style="color: #bfbfbf">Typical reply time: within minutes/hours</p>
+                  <p class="mb-0" style="color: #bfbfbf">Monday – Saturday | 7am–8pm WIB</p>
+                </div>
+              </div>
+              <a  href="https://wa.me/6281240523985" target="_blank" class="btn" style="background-color: transparent; color: #169976; padding: 10px 20px; border: 2px solid #169976; border-radius: 8px; font-weight: 600"> Chat Me </a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center" style="margin-top: 30px;">
+            <div class="d-flex justify-content-between align-items-center p-4" style="background-color: #2e2e2e; border-radius: 10px; color: white; max-width: 800px; width: 100%">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-envelope" style="font-size: 3rem; color: #cfcfcf"></i>
+                <div>
+                  <h6 class="mb-1" style="font-weight: 700">Email</h6>
+                  <p class="mb-0" style="color: #bfbfbf">Typical reply time: within 1-2 days</p>
+                  <p class="mb-0" style="color: #bfbfbf">Monday – Saturday | 7am–8pm WIB</p>
+                </div>
+              </div>
+              <a href="https://mail.google.com/mail" target="_blank" class="btn" style="background-color: transparent; color: #169976; padding: 10px 20px; border: 2px solid #169976; border-radius: 8px; font-weight: 600"> Email Me </a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center" style="margin-top: 30px;">
+            <div class="d-flex justify-content-between align-items-center p-4" style="background-color: #2e2e2e; border-radius: 10px; color: white; max-width: 800px; width: 100%">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-geo-alt" style="font-size: 3rem; color: #cfcfcf"></i>
+                <div>
+                  <h6 class="mb-1" style="font-weight: 700">Location</h6>
+                  <p class="mb-0" style="color: #bfbfbf">Pontianak, Indonesia</p>
+                  <p class="mb-0" style="color: #bfbfbf">WIB time zone</p>
+                </div>
+              </div>
+              <a href="https://maps.app.goo.gl/WaMo6goEzBgKoeSM9" target="_blank" class="btn" style="background-color: transparent; color: #169976; padding: 10px 20px; border: 2px solid #169976; border-radius: 8px; font-weight: 600"> Find Me </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <button
@@ -222,7 +290,7 @@
             showCursor: false,
             onComplete: function () {
               var typed = new Typed("#job-text", {
-                strings: ["Graphic Designer", "UI UX Designer", "Web Developer"],
+                strings: ["Junior Web Developer", "Graphic Designer", "Fullstack Developer"],
                 typeSpeed: 100,
                 backSpeed: 50,
                 backDelay: 2000,
@@ -231,14 +299,6 @@
             },
           });
         },
-      });
-
-      document.querySelector('a[href="#about"]').addEventListener("click", (e) => {
-        e.preventDefault();
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
       });
 
       const sections = document.querySelectorAll("section");
@@ -270,7 +330,7 @@
       const navbar = document.getElementById("navbar");
 
       // Ambil elemen "About Me" dengan id "about"
-      const aboutSection = document.getElementById("aboutme");
+      const aboutSection = document.getElementById("portofolio");
 
       // Fungsi untuk memeriksa apakah bagian About Me sudah masuk viewport
       function checkScroll() {
@@ -278,7 +338,7 @@
         const rect = aboutSection.getBoundingClientRect();
 
         // Jika bagian About Me sudah masuk ke viewport (top <= 0 berarti bagian tersebut terlihat)
-        if (rect.top <= 230) {
+        if (rect.top <= 850) {
           navbar.classList.remove("navbar-transparent");
           navbar.classList.add("navbar-solid");
         } else {
@@ -292,6 +352,22 @@
 
       // Panggil checkScroll pada load halaman pertama
       checkScroll();
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+            });
+          }
+
+          history.pushState("", document.title, window.location.pathname, window.location.search);
+        });
+      });
     </script>
   </body>
 </html>
