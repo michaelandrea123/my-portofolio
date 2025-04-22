@@ -230,6 +230,6 @@ main {
 }
 
 .project-card:hover {
-  border: 2px solid #1dcd9f !important;
-  box-shadow: 0 0 15px rgba(29, 205, 159, 0.3) !important;
+  border: 2px solid #1dcd9f;
+  box-shadow: 0 0 15px rgba(29, 205, 159, 0.3);
 }
