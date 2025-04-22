@@ -233,3 +233,25 @@ main {
   border: 2px solid #1dcd9f;
   box-shadow: 0 0 15px rgba(29, 205, 159, 0.3);
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, #40ffaa, #4079ff, #40ffaa, #4079ff, #40ffaa);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 3s ease infinite;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
